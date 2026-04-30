@@ -1,0 +1,153 @@
+﻿Γû▓ Next.js 16.2.2 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : Error: Cannot 
+apply unknown utility 
+class `border-border`. Are 
+you using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective
+At C:\Program 
+Files\nodejs\npx.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (Err  
+  or: Cannot a...rence-d   
+ irective:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+    [2m[at 
+onInvalidCandidate 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:21:1314)][0m
+    [2m[at Ee 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:16:37066)][0m
+    [2m[at 
+C:\Project\Portofolio Web\n
+ode_modules\tailwindcss\dis
+t\lib.js:21:355][0m
+    [2m[at _r 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:3:1733)][0m
+    [2m[at I 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:3:1377)][0m
+    [2m[at Te 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:21:172)][0m
+    [2m[at mn 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:38:294)][0m
+    [2m[at process.process
+TicksAndRejections (node:in
+ternal/process/task_queues:
+105:5)][0m
+    [2m[at async gn 
+(C:\Project\Portofolio Web\
+node_modules\tailwindcss\di
+st\lib.js:38:631)][0m
+    [2m[at async Xr 
+(C:\Project\Portofolio Web\
+node_modules\@tailwindcss\n
+ode\dist\index.js:10:3416)]
+[0m
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./src/app/globals.css
+Error evaluating Node.js 
+code
+CssSyntaxError: 
+tailwindcss: 
+C:\Project\Portofolio Web\s
+rc\app\globals.css:1:1: 
+Cannot apply unknown 
+utility class 
+`border-border`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective
+    at Input.error (node_mo
+dules/postcss/lib/input.js:
+135:16) 
+[C:\Project\Portofolio Web\
+.next\build\chunks\node_mod
+ules_13sb.px._.js:4651:22]
+    at error (node_modules/
+postcss/lib/node.js:146:32)
+ [C:\Project\Portofolio Web
+\.next\build\chunks\node_mo
+dules_13sb.px._.js:928:38]
+    [at Object.Once 
+(C:\Project\Portofolio Web\
+node_modules\@tailwindcss\p
+ostcss\dist\index.js:10:691
+3)]
+    [at process.processTick
+sAndRejections (node:intern
+al/process/task_queues:105:
+5)]
+    at async 
+LazyResult.runAsync (node_m
+odules/postcss/lib/lazy-res
+ult.js:293:11) 
+[C:\Project\Portofolio Web\
+.next\build\chunks\node_mod
+ules_13sb.px._.js:6214:21]
+    at async transform (tur
+bopack:///[turbopack-node]/
+transforms/postcss.ts:70:34
+) [C:\Project\Portofolio We
+b\.next\build\chunks\[root-
+of-the-server]__0d-m0h0._.j
+s:146:36]
+    at async run (turbopack
+:///[turbopack-node]/child_
+process/evaluate.ts:89:23) 
+[C:\Project\Portofolio Web\
+.next\build\chunks\[root-of
+-the-server]__0ubbtyl._.js:
+443:31]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css 
+[Client Component Browser]
+    ./src/app/layout.tsx 
+[Server Component]
+
+
+    at async transform (tur
+bopack:///[turbopack-node]/
+transforms/postcss.ts:70:34
+) [C:\Project\Portofolio We
+b\.next\build\chunks\[root-
+of-the-server]__0d-m0h0._.j
+s:146:36])
+    at async run (turbopack
+:///[turbopack-node]/child_
+process/evaluate.ts:89:23) 
+[C:\Project\Portofolio Web\
+.next\build\chunks\[root-of
+-the-server]__0ubbtyl._.js:
+443:31])
