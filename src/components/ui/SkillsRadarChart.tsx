@@ -11,12 +11,12 @@ import {
 import { motion } from "framer-motion";
 
 const data = [
-  { subject: "Data Engineering", A: 120, fullMark: 150 },
-  { subject: "NLP", A: 140, fullMark: 150 },
-  { subject: "ML Modeling", A: 125, fullMark: 150 },
-  { subject: "MLOps", A: 90, fullMark: 150 },
-  { subject: "Model Evaluation", A: 110, fullMark: 150 },
-  { subject: "Cloud Data", A: 95, fullMark: 150 },
+  { subject: "Machine Learning", A: 140, fullMark: 150 },
+  { subject: "Computer Vision", A: 125, fullMark: 150 },
+  { subject: "Time Series", A: 110, fullMark: 150 },
+  { subject: "Data Engineering", A: 135, fullMark: 150 },
+  { subject: "Cloud Storage", A: 100, fullMark: 150 },
+  { subject: "Data Viz", A: 120, fullMark: 150 },
 ];
 
 export default function SkillsRadarChart() {

@@ -16,10 +16,36 @@ export const portfolioData = {
     }
   },
   skills: [
-    { category: "AI & Data", items: ["NLP", "Transformers", "PyTorch", "TensorFlow", "Scikit-Learn", "Computer Vision"], icon: "Cpu", color: "#FF6F00" },
-    { category: "Backend & Data Eng", items: ["Python", "SQL", "Node.js", "Express", "BigQuery", "Docker"], icon: "Server", color: "#3C873A" },
-    { category: "Cloud & Database", items: ["MongoDB", "PostgreSQL", "Firebase", "AWS", "Google Cloud"], icon: "Database", color: "#F5A623" },
-    { category: "App Development", items: ["React", "Next.js", "Tailwind CSS", "Flutter", "REST API"], icon: "Layout", color: "#61DAFB" }
+    { 
+      category: "Machine Learning & AI", 
+      items: ["PyTorch", "TensorFlow", "Hugging Face", "Scikit-Learn", "XGBoost", "LightGBM", "CatBoost", "NumPy", "NiaPy", "PyTorch Frame", "LangChain", "LlamaIndex", "Groq", "NLTK", "Spello"], 
+      icon: "Cpu", 
+      color: "#FF6F00" 
+    },
+    { 
+      category: "CV & Time Series", 
+      items: ["OpenCV", "Pillow", "Scikit-Image", "Ultralytics", "DeepLab", "Roboflow", "Nixtla", "Sktime", "Darts", "GluonTS", "Torch Geometric Temporal"], 
+      icon: "Eye", 
+      color: "#EC4899" 
+    },
+    { 
+      category: "Data Engineering", 
+      items: ["Airbyte", "Google Datastream", "Flink CDC", "Debezium", "Kafka", "Elasticsearch", "Apache Airflow", "Hadoop", "Spark", "Apache Beam", "Flink", "dbt", "DuckDB", "Ibis"], 
+      icon: "Server", 
+      color: "#3C873A" 
+    },
+    { 
+      category: "Data Storage & Cloud", 
+      items: ["MySQL", "PostgreSQL", "Google BigQuery", "Google Cloud Storage (GCS)", "AWS S3"], 
+      icon: "Database", 
+      color: "#F5A623" 
+    },
+    { 
+      category: "Data Analysis & Viz", 
+      items: ["Tableau", "Power BI", "Looker", "Ms. Excel", "Google Sheets", "Pandas", "Polars", "Gephi", "Google Earth Engine", "QGIS", "Geopandas", "Folium"], 
+      icon: "PieChart", 
+      color: "#61DAFB" 
+    }
   ],
   achievements: {
     featured: [

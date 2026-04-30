@@ -1,6 +1,6 @@
 "use client";
 
-import { Layout, Server, Database, Cpu, type LucideIcon } from "lucide-react";
+import { Layout, Server, Database, Cpu, Eye, PieChart, type LucideIcon } from "lucide-react";
 import { portfolioData } from "@/data/portfolio";
 import ScrollReveal from "../ui/ScrollReveal";
 import SkillsRadarChart from "../ui/SkillsRadarChart";
@@ -10,6 +10,8 @@ const IconMap: Record<string, LucideIcon> = {
   Server,
   Database,
   Cpu,
+  Eye,
+  PieChart,
 };
 
 export default function Skills() {
@@ -29,9 +31,9 @@ export default function Skills() {
           </div>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left Side: Radar Chart Area */}
-          <div className="relative order-2 lg:order-1">
+          <div className="relative order-2 lg:order-1 lg:sticky lg:top-32">
             <div className="space-y-8 mb-12">
               <ScrollReveal direction="left">
                 <h3 className="text-2xl font-bold text-white mb-4">Expertise Matrix</h3>
@@ -48,9 +50,15 @@ export default function Skills() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 order-1 lg:order-2">
             {skills.map((category: any, index: number) => {
               const Icon = IconMap[category.icon] || Layout;
+              const isLastOdd = index === skills.length - 1 && skills.length % 2 !== 0;
+              
               return (
-                <ScrollReveal key={category.category} delay={index * 0.1}>
-                  <div className="group relative p-8 rounded-3xl glass hover:border-primary/20 transition-all duration-500 hover:-translate-y-2">
+                <ScrollReveal 
+                  key={category.category} 
+                  delay={index * 0.1}
+                  className={isLastOdd ? "sm:col-span-2" : ""}
+                >
+                  <div className="group relative p-8 rounded-3xl glass hover:border-primary/20 transition-all duration-500 hover:-translate-y-2 h-full">
                     <div
                       className="absolute inset-x-0 bottom-0 h-1 transition-all duration-500 opacity-20 group-hover:opacity-100 rounded-b-3xl"
                       style={{ backgroundColor: category.color }}
