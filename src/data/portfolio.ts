@@ -305,10 +305,31 @@ export const portfolioData = {
   ],
   certificates: [
     {
-      title: "Hackathon Refactory x UGM Winner",
-      organization: "Refactory & UGM",
-      date: "Jan 2026",
-      image: "/images/Refactory Sertif.jpg",
+      title: "Certificate 1",
+      organization: "Organization 1",
+      date: "2024",
+      image: "/images/Sertif1.jpg",
+      link: "#"
+    },
+    {
+      title: "Certificate 2",
+      organization: "Organization 2",
+      date: "2024",
+      image: "/images/Sertif2.jpg",
+      link: "#"
+    },
+    {
+      title: "Certificate 3",
+      organization: "Organization 3",
+      date: "2025",
+      image: "/images/Sertif3.jpg",
+      link: "#"
+    },
+    {
+      title: "Certificate 4",
+      organization: "Organization 4",
+      date: "2025",
+      image: "/images/Sertif4.png",
       link: "#"
     },
     {
@@ -319,10 +340,17 @@ export const portfolioData = {
       link: "#"
     },
     {
-      title: "AI Training Completion",
-      organization: "Generation Girl",
-      date: "Dec 2024",
-      image: "/images/Sertif Training.jpg",
+      title: "Hackathon Refactory x UGM Winner",
+      organization: "Refactory & UGM",
+      date: "Jan 2026",
+      image: "/images/Refactory Sertif.jpg",
+      link: "#"
+    },
+    {
+      title: "Begin 2.0 Business Plan Finalist",
+      organization: "Begin 2.0",
+      date: "2024",
+      image: "/images/beast.jpeg",
       link: "#"
     }
   ]

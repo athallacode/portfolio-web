@@ -7,6 +7,7 @@ import About from "@/components/sections/About";
 import Skills from "@/components/sections/Skills";
 import Achievements from "@/components/sections/Achievements";
 import Experience from "@/components/sections/Experience";
+import Certificates from "@/components/sections/Certificates";
 import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
 import SystemLoader from "@/components/ui/SystemLoader";
@@ -58,6 +59,7 @@ export default function Home() {
           <About />
           <Skills />
           <Achievements />
+          <Certificates />
           <Experience />
           <Projects />
           <Contact />
