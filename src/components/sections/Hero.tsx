@@ -90,7 +90,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start pointer-events-auto w-full lg:w-auto"
           >
             <a
-              href="/cv.pdf"
+              href="/cv-telkom.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white text-black rounded-full font-semibold text-sm tracking-tight transition-transform hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(255,255,255,0.15)] flex items-center justify-center gap-2 w-full sm:w-auto"

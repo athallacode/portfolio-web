@@ -352,6 +352,27 @@ export const portfolioData = {
       date: "2024",
       image: "/images/beast.jpeg",
       link: "#"
+    },
+    {
+      title: "DQLab Certification",
+      organization: "DQLab",
+      date: "2024",
+      image: "/images/sertifdq.jpeg",
+      link: "#"
+    },
+    {
+      title: "Komdigi Certification",
+      organization: "Kementerian Komunikasi dan Digital",
+      date: "2024",
+      image: "/images/sertifkomdigi.jpeg",
+      link: "#"
+    },
+    {
+      title: "Pijar Certification",
+      organization: "Pijar",
+      date: "2024",
+      image: "/images/sertifpijar.jpeg",
+      link: "#"
     }
   ]
 };
